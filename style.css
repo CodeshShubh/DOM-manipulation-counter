@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    background-color: black;
+    color: white;
+}
+
+body .first_div{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    >hr{
+        width: 15%;
+    }
+    >p:last-of-type{
+        color: black;
+        
+    }
+}
+
+.btns{
+    padding-left: 3rem;
+    display: flex;
+    gap: 2rem;
+    >button{
+        border: none;
+        padding: 0.5rem;
+        min-width: 9rem;
+        cursor: pointer;
+        border: 1px solid white ;
+    }
+    >button:last-child{
+        border: 1px solid white ;
+        color: white;
+        background-color: black;
+    }
+}
